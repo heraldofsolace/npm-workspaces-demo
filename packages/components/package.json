@@ -14,8 +14,14 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/components.es.js",
-      "require": "./dist/components.umd.js"
+      "import": [
+        "./dist/components.es.js",
+        "./dist/index.d.ts"
+      ],
+      "require": [
+        "./dist/components.umd.js",
+        "./dist/index.d.ts"
+    ]
     },
     "./dist/style.css": "./dist/style.css"
   },
